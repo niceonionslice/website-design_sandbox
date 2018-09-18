@@ -20,8 +20,8 @@ Rails.application.configure do
     config.action_controller.perform_caching = true
 
     # Rails Fragment Cache
-    config.cache_store = :memory_store
-    # config.cache_store = :redis_store, "redis://redis:6379/0/cache", { expires_in: 10.minutes }
+    # config.cache_store = :memory_store
+    config.cache_store = :redis_store, "redis://#{ENV['REDIS_PATH']}:6379/0/cache", { expires_in: 10.minutes }
 
     config.public_file_server.headers = {
       'Cache-Control' => "public, max-age=#{1.days.to_i}"

@@ -14,3 +14,11 @@ Environment               development
 Database adapter          mysql2
 Database schema version   0
 ```
+
+## 概要
+
+db, redisなどのセットアップが完了している状態でvueも利用できるようにしている。
+db接続確認OK
+redis接続確認OK
+
+demo画面しか作成していないのでまっさらなプロジェクトでテストもまだ書いていない状態。
