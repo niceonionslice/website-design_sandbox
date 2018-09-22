@@ -8,5 +8,9 @@
 // layout file, like app/views/layouts/application.html.erb
 require("../packs/rails-ujs.js");
 require("../packs/hello_vue.js");
+require("../packs/ddmenu_min.js");
+require("../packs/fixmenu.js");
+require("../packs/fixmenu_pagetop.js");
+require("../packs/openclose");
 
 // console.log('Hello World from Webpacker')

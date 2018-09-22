@@ -1,0 +1,14 @@
+#top
+  #container
+    header
+      h1#logo
+        = image_tag asset_pack_path("images/logo_top.png"), alt: "SAMPLE SAMPLE"
+      / スライドショー
+      aside#maining
+        - (0..3).each do |i|
+          = image_tag asset_pack_path("images/#{i}.jpg"), alt: "#{i}", class: "slide#{i}"
+      / スライドショー　下部の装飾用画像
+      = image_tag asset_pack_path("images/123bg.png"), alt: "", id: "kazari"
+
+#menubar
+#hello
