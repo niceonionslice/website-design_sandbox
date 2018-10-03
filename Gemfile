@@ -16,8 +16,14 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'slim-rails', '~> 3.1', '>= 3.1.3'
-gem 'dotenv-rails', '~> 2.5'
+gem 'dotenv-rails', '~> 2.5' # dotenv-rails
 gem 'redis-rails', '~> 5.0', '>= 5.0.2'
+
+# 将来的に利用してみたいgems
+# gem cancancan # 権限管理(認可)をやる場合
+# gem devise # Railsに認証機能をつけられるようになる
+# gem devise_invitable # Emailを使った招待機能を実現するgem。
+# gem sidekiq # メール送信やバッチ処理といった非同期処理を実現するキューライブラリ。
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

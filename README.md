@@ -15,10 +15,13 @@ Database adapter          mysql2
 Database schema version   0
 ```
 
-## 概要
+## このプロジェクトの状況
 
 db, redisなどのセットアップが完了している状態でvueも利用できるようにしている。
 db接続確認OK
 redis接続確認OK
 
-demo画面しか作成していないのでまっさらなプロジェクトでテストもまだ書いていない状態。
+## railstutorial.jp
+
+Ruby on Rails チュートリアルのサンプルアプリケーション
+なにか発見があればここにメモする。

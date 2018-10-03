@@ -11,6 +11,7 @@ require("../packs/hello_vue.js");
 require("../packs/ddmenu_min.js");
 require("../packs/fixmenu.js");
 require("../packs/fixmenu_pagetop.js");
-require("../packs/openclose");
+require("../packs/openclose.js");
+require("../packs/static_pages.js");
 
 // console.log('Hello World from Webpacker')
