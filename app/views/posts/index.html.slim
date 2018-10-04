@@ -1,0 +1,12 @@
+h1 全ての投稿一覧
+
+table
+  tr
+    th タイトル
+    th 内容
+  - @posts.each do |post|
+    tr
+      td
+        = post.title
+      td
+        = post.text

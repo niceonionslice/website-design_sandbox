@@ -1,0 +1,8 @@
+p
+  strong タイトル:
+  = @post.first.title
+p
+  strong 内容:
+  = @post.first.text
+
+= link_to '戻る', posts_path
