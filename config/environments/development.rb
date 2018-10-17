@@ -59,4 +59,7 @@ Rails.application.configure do
 
   # yarn install 警告抑止
   config.webpacker.check_yarn_integrity = false
+
+  # 日数でのローテート
+  config.logger = Logger.new("log/development.log", 'daily')
 end
