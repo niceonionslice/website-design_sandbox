@@ -15,7 +15,7 @@
     p
       = f.label :title, "タイトル"
       br
-      = f.text_field :title
+      = f.text_field :title, class: 'title--aria', maxlength: 10
     p
       = f.label :text, "内容"
       br
